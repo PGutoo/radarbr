@@ -1,0 +1,177 @@
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+
+.menu-bg {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #008542;
+}
+
+.menu {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;  
+  justify-content: space-between;
+}
+
+.menu-logo {
+  color: #008542;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 26px;
+  font-family: "sans-serif", serif;
+  width: 14%;
+  background-color: white;
+  padding: 10px 50px;
+}
+
+.btn {
+  font-size: 26px;
+  line-height: 30px;
+  border: 1px solid #fdc82f;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px #000;
+  border-radius: 40px;
+  font-family: "sans-serif",serif, serif;
+  cursor: pointer;
+}
+
+/* Imagem */
+
+.img {
+  display: flex;
+}
+
+.img a {
+  display: flex;
+}
+
+.caborno {
+  position: absolute;
+  width: 360px;
+  height: 196px;
+  left: 66px;
+  top: 152px;
+}
+
+.plataforma {
+  position: absolute;
+  width: 360px;
+  height: 196px;
+  left: 503px;
+  top: 152px;
+}
+
+.eficiencia {
+  position: absolute;
+  width: 360px;
+  height: 196px;
+  left: 940px;
+  top: 152px;
+}
+
+body {
+  background-image: url(../img/mar1.gif);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+/* TEXTO */
+
+.txt1{
+  position: absolute;
+  left: 5%;
+  right: 7.5%;
+  top: 60%;
+  bottom: 0%;
+  font-family: "sans-serif", sans-serif;;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.txt2 {
+  position: absolute;
+left: 39%;
+right: 7.5%;
+top: 60%;
+bottom: 0%;
+font-family: "sans-serif", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+}
+
+.txt3 {
+  position: absolute;
+  left: 73%;
+  right: 5%;
+  top: 60%;
+  bottom: 0%;
+  font-family: "sans-serif", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+
+}
+
+/* HOME */
+
+.container {
+  display: flex;
+  position: absolute;
+  width: 893px;
+  height: 120px;
+  left: 236px;
+  top: 190px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: #000000;
+  font-family: "sans-serif", serif 
+}
+
+
+.footer {
+  background: #008542;
+  display: flex;
+  height: 50px;
+  flex-direction: column;
+  justify-content: flex end;
+  bottom: 0;
+}
+input{
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+}
